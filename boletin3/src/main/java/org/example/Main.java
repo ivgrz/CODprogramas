@@ -24,7 +24,7 @@ public class Main {
 
          */
 //Boletin 22 ej2
-
+/*
 double  c, ef, ek;
     Scanner eTec = new Scanner(System.in);
 
@@ -36,10 +36,25 @@ double  c, ef, ek;
 
         ek = (c + 273);
         System.out.println("La temperatura en kelvin es:" + ek + " grados kelvin");
+*/
+//Boletin 22 ej3
 
+double x, y,z, d, r;
+    Scanner tec = new Scanner(System.in);
+        System.out.println("introduce la cantidad de billetes de 100");
+        x = tec.nextDouble();
 
+        System.out.println("introduce la cantidad de billetes de 20");
+        y = tec.nextDouble();
 
+        System.out.println("introduce la cantidad de billetes de 5");
+        z = tec.nextDouble();
 
+        System.out.println("introduce la cantidad de monedas de 1");
+        d = tec.nextDouble();
+
+        r = (x * 100) + (20 * y) + (5 * z) + (1 * d);
+        System.out.println("tu cantidad de dinero es: " + r);
 
 
 
