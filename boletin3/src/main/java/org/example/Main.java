@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 //Bolentin22ej1
-        /*
+
         double pagado, tarifa, porcent;
 
         Scanner entradaTec = new Scanner(System.in);
@@ -22,9 +22,9 @@ public class Main {
 
         System.out.println("El porcentaje realizado fue de: "+ porcent + "%");
 
-         */
+
 //Boletin 22 ej2
-/*
+
 double  c, ef, ek;
     Scanner eTec = new Scanner(System.in);
 
@@ -36,7 +36,7 @@ double  c, ef, ek;
 
         ek = (c + 273);
         System.out.println("La temperatura en kelvin es:" + ek + " grados kelvin");
-*/
+
 //Boletin 22 ej3
 
 double x, y,z, d, r;
