@@ -6,7 +6,8 @@ import java.util.Scanner;
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-//Bolentin22ej1
+
+        //Bolentin22ej1
 
         double pagado, tarifa, porcent;
 
@@ -17,7 +18,7 @@ public class Main {
         System.out.println("introduce la tarifa");
         tarifa = entradaTec.nextDouble();
 
-        porcent = (();
+        porcent = 100 - ((pagado/tarifa)*100);
 
 
         System.out.println("El porcentaje realizado fue de: "+ porcent + "%");
@@ -36,9 +37,9 @@ double  c, ef, ek;
 
         ek = (c + 273);
         System.out.println("La temperatura en kelvin es:" + ek + " grados kelvin");
-
+*/
 //Boletin 22 ej3
-
+/*
 double x, y,z, d, r;
     Scanner tec = new Scanner(System.in);
         System.out.println("introduce la cantidad de billetes de 100");
@@ -55,9 +56,9 @@ double x, y,z, d, r;
 
         r = (x * 100) + (20 * y) + (5 * z) + (1 * d);
         System.out.println("tu cantidad de dinero es: " + r);
+*/
 
-
-
+//
 
     }
 }
